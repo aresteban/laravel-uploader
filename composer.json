@@ -1,0 +1,24 @@
+{
+    "name": "aresteban/laravel-uploader",
+    "description": "A helper package to make the 2-step-uploading (tmp->permanent location) easier.",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Aldrin Esteban",
+            "email": "aresteban1@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "extra": {
+        "laravel": {
+            "providers": [
+                "aresteban\\LaravelUploader\\UploadServiceProvider"
+            ],
+            "aliases": {
+                "Uploader": "aresteban\\LaravelUploader\\UploaderFacade"
+            }
+        }
+    }
+}
