@@ -11,6 +11,11 @@
     ],
     "minimum-stability": "dev",
     "require": {},
+    "autoload": {
+        "psr-0": {
+            "aresteban\\LaravelUploader\\": "src"
+        },
+    },
     "extra": {
         "laravel": {
             "providers": [
