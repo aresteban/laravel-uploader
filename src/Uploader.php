@@ -131,8 +131,6 @@ class Uploader
         $tmp_file_location = $this->temporary_path. '/' .$filename;
         $perm_file_location = $save_path.'/'.$filename;
 
-        dump($perm_file_location);
-
         $relocation_result = Storage::copy($tmp_file_location, $perm_file_location);
 
         return $relocation_result;
