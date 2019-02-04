@@ -13,7 +13,7 @@
     "require": {},
     "autoload": {
         "psr-0": {
-            "aresteban\\LaravelUploader\\": "src"
+            "aresteban\\LaravelUploader\\": "src/"
         },
     },
     "extra": {
